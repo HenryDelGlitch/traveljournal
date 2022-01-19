@@ -1,9 +1,8 @@
 import Navbar from './components/Navbar/Navbar';
 import Card from './components/Card/Card';
 import data from './data';
-import './App.css';
 
-function App() {
+export default function App() {
   const cards = data.map((item,index) => {
     return (
         <Card
@@ -22,5 +21,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
