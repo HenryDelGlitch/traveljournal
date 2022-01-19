@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: #F55A5A;
+  color: #FFF;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar p {
+  margin-left: 10px;
+}
+
+.card-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.card {
+  margin: 5% 0;
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+
+  .card {
+    display: flex;
+    height: 175px;
+    margin: 10% 0;
+  }
+
+  .card-picture {
+    width: 35%;
+    height: 100%;
+  }
+
+  .card-places {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+  }
+
+  .card-places p {
+    margin: 0 20px 0 10px;
+  }
+
+  .card-places a {
+    color: #918E9B;
+  }
+}
