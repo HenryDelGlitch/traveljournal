@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar/Navbar';
 import Card from './components/Card/Card';
 import data from './data';
-
 import './App.css';
 
 function App() {
